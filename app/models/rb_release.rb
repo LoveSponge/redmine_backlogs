@@ -1,5 +1,5 @@
 require 'date'
-require 'linear_regression'
+require_relative '../../lib/linear_regression.rb'
 
 class ReleaseBurndown
   def initialize(release)

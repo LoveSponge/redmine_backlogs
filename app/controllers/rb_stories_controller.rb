@@ -1,5 +1,5 @@
 require 'prawn'
-require 'backlogs_printable_cards'
+require_relative '../../lib/backlogs_printable_cards.rb'
 
 include RbCommonHelper
 
