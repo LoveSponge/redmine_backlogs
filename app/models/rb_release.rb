@@ -181,8 +181,6 @@ class RbRelease < ActiveRecord::Base
                                     where(Project.allowed_to_condition(args.first || User.current, :view_releases)) }
 
 
-  include Backlogs::ActiveRecord::Attributes
-
   def to_s; name end
 
   def closed?
